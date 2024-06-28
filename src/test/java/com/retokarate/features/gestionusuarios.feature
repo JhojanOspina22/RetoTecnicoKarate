@@ -29,7 +29,7 @@ Feature: RetoKarate API Testing
     When method delete
     Then status 204
 
-  Scenario: Get a list of users
+  Scenario: Validar usuario eliminado en lista de usuarios
     Given path 'users'
     When method get
     Then status 200
