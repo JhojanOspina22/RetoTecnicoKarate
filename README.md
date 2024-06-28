@@ -5,20 +5,22 @@ Instalación
 Para ejecutar este proyecto, asegúrate de tener instalado Java en tu máquina. Además, necesitarás Gradle para manejar las dependencias del proyecto.
 
 Dependencias
+Debes tener instalado intellij
 Para cargar las dependicas solo se tiene que actualizar el archivo build.gradle para que descargue automaticamente las dependencias necesarias.
 
 Paso a paso
 
-Clona el repositorio:
+1- Clona el repositorio:
 git clone https://github.com/JhojanOspina22/RetoTecnicoKarate.git
 
-Navega al directorio del proyecto:
-cd proyecto-karate-e
+2- Abre el proyecto con intellij
 
-Compila el proyecto:
-gradle build
+3- Compila el proyecto:
 
-Ejecuta las pruebas:
-gradle test
+4- Ejecuta el runner
+GestionUsuariosRunner
+
+5-Encontraras el archivo HTML con el reporte en la siguiente ubicacion
+build/karate-reports/karate-summary.html
 
 
